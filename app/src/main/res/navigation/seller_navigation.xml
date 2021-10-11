@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/seller_navigation"
+    app:startDestination="@+id/nav_home">
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.e_farmerplace.Seller.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/activity_seller__home_flipper" />
+
+    <fragment
+        android:id="@+id/nav_product"
+        android:name="com.example.e_farmerplace.Seller.ui.gallery.ProductFragment"
+        android:label="View Detail"
+        tools:layout="@layout/activity_product_" />
+
+    <fragment
+        android:id="@+id/nav_productsold"
+        android:name="com.example.e_farmerplace.Seller.ui.slideshow.ProductSoldFragment"
+        android:label="View Product Sold"
+        tools:layout="@layout/activity_view_product_data" />
+
+
+
+</navigation>

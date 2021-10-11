@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main_Home_Activity">
+    <Spinner
+        android:id="@+id/spin1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_marginTop="100dp"
+        android:text="search"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+
+
+    <ImageView
+        android:id="@+id/imgfarmer"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:clickable="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="170dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:id="@+id/farmer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Farmer"
+        android:layout_below="@id/imgfarmer"
+        android:layout_marginLeft="90dp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:gravity="center"/>
+    <ImageView
+        android:id="@+id/imgseller"
+        android:layout_toRightOf="@id/imgfarmer"
+        android:layout_width="150dp"
+        android:layout_height="110dp"
+        android:clickable="true"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/seller"/>
+    <TextView
+        android:id="@+id/seller"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seller"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="240dp"
+        android:textStyle="bold"
+        android:layout_below="@id/imgseller"
+        android:textSize="20dp"
+        android:gravity="center"/>
+
+
+</RelativeLayout>

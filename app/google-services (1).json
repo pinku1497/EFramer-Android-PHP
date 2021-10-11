@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "491961899996",
+    "firebase_url": "https://e-farmerplace.firebaseio.com",
+    "project_id": "e-farmerplace",
+    "storage_bucket": "e-farmerplace.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491961899996:android:2246e9e3734ccf40e90d19",
+        "android_client_info": {
+          "package_name": "com.example.e_farmerplace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "491961899996-unekbhg54ssfqt7cnes3mh6q0e0vqb7d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.e_farmerplace",
+            "certificate_hash": "676186f11fb68a046759bc802c2ac00633b26526"
+          }
+        },
+        {
+          "client_id": "491961899996-e50vbsp3pk2fbneviss378ap1kftfmgg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCX2ICu5ghyXQxAFWOnayxvIxxGdYDMyUM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "491961899996-e50vbsp3pk2fbneviss378ap1kftfmgg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

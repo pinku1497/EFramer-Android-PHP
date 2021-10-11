@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.e_farmerplace">
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true">
+        <activity android:name=".Seller.FetchPackageActivity"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".DemoCameraGallaryActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SearchProductFruite"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AddtocartActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SearchProductActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PaymentActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".FarrmerAboutusActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ViewProductDataActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Main_Home_Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".FinalLoginDataActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".FarmerLoginActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Splash3Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Splash2Activity"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".CallActivity" />
+        <activity android:name=".Seller.Seller_HomeFlipperActivity" />
+        <activity android:name=".Seller.Seller_ProductActivity" />
+        <activity
+            android:name=".Farmer_BuyProductActivity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Search_Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BuyProduct_Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Farmer_GallaryActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Seller.Seller_Registration"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Seller.Seller_Activity_final"
+            android:label="@string/title_activity_seller__final"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Seller.Seller_Login_Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Mail_Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
