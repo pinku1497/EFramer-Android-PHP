@@ -44,10 +44,10 @@ Button pay;
                  else
                  {
                      getUserAPI(name.getText().toString(),mob.getText().toString());
-                     String url = "https://www.paypal.com/in/home";
-                     Intent i = new Intent(Intent.ACTION_VIEW);
-                     i.setData(Uri.parse(url));
-                     startActivity(i);
+                     //String url = "https://www.paypal.com/in/home";
+                     //Intent i = new Intent(Intent.ACTION_VIEW);
+                     //i.setData(Uri.parse(url));
+                     //startActivity(i);
                  }
              }
          });
