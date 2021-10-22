@@ -1,4 +1,4 @@
-//not working this api
+
 <?php
 defined('ROOT_PATH')  OR define('ROOT_PATH', $_SERVER['DOCUMENT_ROOT']."/efarmer_apis/");
 
